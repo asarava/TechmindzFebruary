@@ -56,3 +56,19 @@
 2023-07-03 14:26:55,878 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-07-03 14:26:55,896 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-07-03 14:30:32,409 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-03 14:44:32,582 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:44:32,619 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\main\resources
+2023-07-03 14:44:32,633 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:44:32,659 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\test\resources
+2023-07-03 14:45:34,005 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:45:34,025 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\main\resources
+2023-07-03 14:45:34,039 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:45:34,042 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\test\resources
+2023-07-03 14:48:06,842 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:48:06,865 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\main\resources
+2023-07-03 14:48:06,885 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:48:06,948 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\test\resources
+2023-07-03 14:49:27,256 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:49:27,259 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\main\resources
+2023-07-03 14:49:27,265 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-03 14:49:27,268 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Butterfly\Desktop\Repository Project\TechmindzFebruary\ProjectWorkspace\SeleniumProjectV1\src\test\resources
