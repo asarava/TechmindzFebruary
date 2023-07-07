@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T17:55:59 IST" name="Suite" finished-at="2023-07-07T17:58:57 IST" duration-ms="178089">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T17:55:59 IST" name="Test" finished-at="2023-07-07T17:58:57 IST" duration-ms="178089">
+      <class name="com.testcases.TestCases">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:55:59 IST" name="setExtent" finished-at="2023-07-07T17:56:00 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:00 IST" name="setUp" finished-at="2023-07-07T17:56:19 IST" duration-ms="19074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithBlankUserName()[pri:1, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:19 IST" name="loginWithBlankUserName" finished-at="2023-07-07T17:56:20 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankUserName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:20 IST" name="tearDown" finished-at="2023-07-07T17:56:21 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithBlankUserName status=SUCCESS method=TestCases.loginWithBlankUserName()[pri:1, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWithBlankPassword()[pri:2, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:21 IST" name="loginWithBlankPassword" finished-at="2023-07-07T17:56:21 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:21 IST" name="tearDown" finished-at="2023-07-07T17:56:21 IST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithBlankPassword status=SUCCESS method=TestCases.loginWithBlankPassword()[pri:2, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWithInvalidUsername()[pri:3, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:21 IST" name="loginWithInvalidUsername" finished-at="2023-07-07T17:56:23 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:23 IST" name="tearDown" finished-at="2023-07-07T17:56:23 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUsername status=SUCCESS method=TestCases.loginWithInvalidUsername()[pri:3, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWithInvalidPassword()[pri:4, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:23 IST" name="loginWithInvalidPassword" finished-at="2023-07-07T17:56:26 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:26 IST" name="tearDown" finished-at="2023-07-07T17:56:26 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidPassword status=SUCCESS method=TestCases.loginWithInvalidPassword()[pri:4, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginWithValidUsernameAndPassword()[pri:5, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:26 IST" name="loginWithValidUsernameAndPassword" finished-at="2023-07-07T17:56:29 IST" duration-ms="2352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:29 IST" name="tearDown" finished-at="2023-07-07T17:56:29 IST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUsernameAndPassword status=SUCCESS method=TestCases.loginWithValidUsernameAndPassword()[pri:5, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnAdminLink()[pri:6, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:29 IST" name="clickOnAdminLink" finished-at="2023-07-07T17:56:31 IST" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdminLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:31 IST" name="tearDown" finished-at="2023-07-07T17:56:32 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAdminLink status=SUCCESS method=TestCases.clickOnAdminLink()[pri:6, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnPIMLink()[pri:7, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:32 IST" name="clickOnPIMLink" finished-at="2023-07-07T17:56:33 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPIMLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:33 IST" name="tearDown" finished-at="2023-07-07T17:56:34 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnPIMLink status=SUCCESS method=TestCases.clickOnPIMLink()[pri:7, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnLeaveLink()[pri:8, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:34 IST" name="clickOnLeaveLink" finished-at="2023-07-07T17:56:35 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLeaveLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:35 IST" name="tearDown" finished-at="2023-07-07T17:56:36 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnLeaveLink status=SUCCESS method=TestCases.clickOnLeaveLink()[pri:8, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOnTimeLink()[pri:9, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:36 IST" name="clickOnTimeLink" finished-at="2023-07-07T17:56:38 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTimeLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:38 IST" name="tearDown" finished-at="2023-07-07T17:56:38 IST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnTimeLink status=SUCCESS method=TestCases.clickOnTimeLink()[pri:9, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addEmployee()[pri:10, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:38 IST" name="addEmployee" finished-at="2023-07-07T17:56:50 IST" duration-ms="11970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:50 IST" name="tearDown" finished-at="2023-07-07T17:56:50 IST" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmployee status=SUCCESS method=TestCases.addEmployee()[pri:10, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchWithEmployeeName()[pri:11, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:50 IST" name="searchWithEmployeeName" finished-at="2023-07-07T17:56:58 IST" duration-ms="7847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithEmployeeName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:58 IST" name="tearDown" finished-at="2023-07-07T17:56:58 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchWithEmployeeName status=SUCCESS method=TestCases.searchWithEmployeeName()[pri:11, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchWithEmployeeID()[pri:12, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:56:58 IST" name="searchWithEmployeeID" finished-at="2023-07-07T17:57:01 IST" duration-ms="2686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithEmployeeID -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:01 IST" name="tearDown" finished-at="2023-07-07T17:57:01 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchWithEmployeeID status=SUCCESS method=TestCases.searchWithEmployeeID()[pri:12, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addUserInAdmin()[pri:13, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:01 IST" name="addUserInAdmin" finished-at="2023-07-07T17:57:21 IST" duration-ms="20429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserInAdmin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:21 IST" name="tearDown" finished-at="2023-07-07T17:57:22 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUserInAdmin status=SUCCESS method=TestCases.addUserInAdmin()[pri:13, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchUser()[pri:14, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:22 IST" name="searchUser" finished-at="2023-07-07T17:57:41 IST" duration-ms="19067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:41 IST" name="tearDown" finished-at="2023-07-07T17:57:41 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchUser status=SUCCESS method=TestCases.searchUser()[pri:14, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addJobTitle()[pri:15, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:41 IST" name="addJobTitle" finished-at="2023-07-07T17:57:52 IST" duration-ms="11535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:52 IST" name="tearDown" finished-at="2023-07-07T17:57:53 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addJobTitle status=SUCCESS method=TestCases.addJobTitle()[pri:15, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addJobCategories()[pri:16, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:57:53 IST" name="addJobCategories" finished-at="2023-07-07T17:58:04 IST" duration-ms="11458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobCategories -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:04 IST" name="tearDown" finished-at="2023-07-07T17:58:04 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addJobCategories status=SUCCESS method=TestCases.addJobCategories()[pri:16, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addSkillQualification()[pri:17, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:04 IST" name="addSkillQualification" finished-at="2023-07-07T17:58:16 IST" duration-ms="11572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSkillQualification -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:16 IST" name="tearDown" finished-at="2023-07-07T17:58:16 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSkillQualification status=SUCCESS method=TestCases.addSkillQualification()[pri:17, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addLeaveEntitlement()[pri:18, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:16 IST" name="addLeaveEntitlement" finished-at="2023-07-07T17:58:35 IST" duration-ms="18517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLeaveEntitlement -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:35 IST" name="tearDown" finished-at="2023-07-07T17:58:35 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addLeaveEntitlement status=SUCCESS method=TestCases.addLeaveEntitlement()[pri:18, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addCandidateForRecruitment()[pri:19, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:35 IST" name="addCandidateForRecruitment" finished-at="2023-07-07T17:58:54 IST" duration-ms="19403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCandidateForRecruitment -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:54 IST" name="tearDown" finished-at="2023-07-07T17:58:54 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCandidateForRecruitment status=SUCCESS method=TestCases.addCandidateForRecruitment()[pri:19, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchAndSelectFromMainMenu()[pri:20, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:54 IST" name="searchAndSelectFromMainMenu" finished-at="2023-07-07T17:58:56 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectFromMainMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:56 IST" name="tearDown" finished-at="2023-07-07T17:58:57 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndSelectFromMainMenu status=SUCCESS method=TestCases.searchAndSelectFromMainMenu()[pri:20, instance:com.testcases.TestCases@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testcases.TestCases@3e11f9e9]" started-at="2023-07-07T17:58:57 IST" name="endReport" finished-at="2023-07-07T17:58:57 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
