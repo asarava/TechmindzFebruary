@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Butterfly\Desktop\Repository Project\ProjectWorkspace\SeleniumProjectV1\AddScreenshotToReport.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAddEmployee">ClickOnAddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAddEmployeeSave">ClickOnAddEmployeeSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAddUserSave">ClickOnAddUserSave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAdminAdd">ClickOnAdminAdd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAdminEdit">ClickOnAdminEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnAdminUserEdit">ClickOnAdminUserEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnCancelPassword">ClickOnCancelPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnDashboard">ClickOnDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnEmployeeReports">ClickOnEmployeeReports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnForgotPassword">ClickOnForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnInvalidLogin">ClickOnInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnLeave">ClickOnLeave</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnLogin">ClickOnLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnLogout">ClickOnLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnPIM">ClickOnPIM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnRecruitment">ClickOnRecruitment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnReqLogin">ClickOnReqLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnSearch">ClickOnSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnSearchUser">ClickOnSearchUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnTime">ClickOnTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.smoketestcases.AddScreenshotToReport" class="method navigator-link" hash-for-method="ClickOnViewReports">ClickOnViewReports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.smoketestcases.AddScreenshotToReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAddEmployee">
+                  </a> <!-- ClickOnAddEmployee -->
+                  <span class="method-name">ClickOnAddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAddEmployeeSave">
+                  </a> <!-- ClickOnAddEmployeeSave -->
+                  <span class="method-name">ClickOnAddEmployeeSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAddUserSave">
+                  </a> <!-- ClickOnAddUserSave -->
+                  <span class="method-name">ClickOnAddUserSave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAdminAdd">
+                  </a> <!-- ClickOnAdminAdd -->
+                  <span class="method-name">ClickOnAdminAdd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAdminEdit">
+                  </a> <!-- ClickOnAdminEdit -->
+                  <span class="method-name">ClickOnAdminEdit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAdminUserEdit">
+                  </a> <!-- ClickOnAdminUserEdit -->
+                  <span class="method-name">ClickOnAdminUserEdit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnCancelPassword">
+                  </a> <!-- ClickOnCancelPassword -->
+                  <span class="method-name">ClickOnCancelPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnDashboard">
+                  </a> <!-- ClickOnDashboard -->
+                  <span class="method-name">ClickOnDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnEmployeeReports">
+                  </a> <!-- ClickOnEmployeeReports -->
+                  <span class="method-name">ClickOnEmployeeReports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnForgotPassword">
+                  </a> <!-- ClickOnForgotPassword -->
+                  <span class="method-name">ClickOnForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnInvalidLogin">
+                  </a> <!-- ClickOnInvalidLogin -->
+                  <span class="method-name">ClickOnInvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnLeave">
+                  </a> <!-- ClickOnLeave -->
+                  <span class="method-name">ClickOnLeave</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnLogin">
+                  </a> <!-- ClickOnLogin -->
+                  <span class="method-name">ClickOnLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnLogout">
+                  </a> <!-- ClickOnLogout -->
+                  <span class="method-name">ClickOnLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnPIM">
+                  </a> <!-- ClickOnPIM -->
+                  <span class="method-name">ClickOnPIM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnRecruitment">
+                  </a> <!-- ClickOnRecruitment -->
+                  <span class="method-name">ClickOnRecruitment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnReqLogin">
+                  </a> <!-- ClickOnReqLogin -->
+                  <span class="method-name">ClickOnReqLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSearch">
+                  </a> <!-- ClickOnSearch -->
+                  <span class="method-name">ClickOnSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSearchUser">
+                  </a> <!-- ClickOnSearchUser -->
+                  <span class="method-name">ClickOnSearchUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnTime">
+                  </a> <!-- ClickOnTime -->
+                  <span class="method-name">ClickOnTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnViewReports">
+                  </a> <!-- ClickOnViewReports -->
+                  <span class="method-name">ClickOnViewReports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Butterfly\Desktop\Repository Project\ProjectWorkspace\SeleniumProjectV1\AddScreenshotToReport.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.smoketestcases.AddScreenshotToReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClickOnAddUserSave')
+data.setCell(0, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(0, 3, 17729);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnLogin')
+data.setCell(1, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(1, 3, 11901);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnForgotPassword')
+data.setCell(2, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(2, 3, 11558);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickOnAdminAdd')
+data.setCell(3, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(3, 3, 8846);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickOnSearchUser')
+data.setCell(4, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(4, 3, 8843);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClickOnInvalidLogin')
+data.setCell(5, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(5, 3, 7949);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickOnLeave')
+data.setCell(6, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(6, 3, 5643);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ClickOnPIM')
+data.setCell(7, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(7, 3, 5614);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickOnSearch')
+data.setCell(8, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(8, 3, 5191);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ClickOnCancelPassword')
+data.setCell(9, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(9, 3, 5180);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ClickOnEmployeeReports')
+data.setCell(10, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(10, 3, 4492);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ClickOnReqLogin')
+data.setCell(11, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(11, 3, 4484);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ClickOnLogout')
+data.setCell(12, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(12, 3, 3894);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ClickOnAdminEdit')
+data.setCell(13, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(13, 3, 2793);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ClickOnAddEmployeeSave')
+data.setCell(14, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(14, 3, 2792);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ClickOnTime')
+data.setCell(15, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(15, 3, 2545);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ClickOnAddEmployee')
+data.setCell(16, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(16, 3, 2463);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ClickOnRecruitment')
+data.setCell(17, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(17, 3, 2434);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ClickOnViewReports')
+data.setCell(18, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(18, 3, 2376);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ClickOnDashboard')
+data.setCell(19, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(19, 3, 2208);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ClickOnAdminUserEdit')
+data.setCell(20, 2, 'com.smoketestcases.AddScreenshotToReport')
+data.setCell(20, 3, 1277);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.smoketestcases.AddScreenshotToReport</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2844 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnForgotPassword</span>
+                <span class="method-start">51758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnForgotPassword status=SUCCESS method=AddScreenshotToReport.ClickOnForgotPass...)</span>
+                <span class="method-start">63325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnCancelPassword</span>
+                <span class="method-start">63678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnCancelPassword status=SUCCESS method=AddScreenshotToReport.ClickOnCancelPass...)</span>
+                <span class="method-start">68881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnReqLogin</span>
+                <span class="method-start">70383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnReqLogin status=SUCCESS method=AddScreenshotToReport.ClickOnReqLogin()[pri:3...)</span>
+                <span class="method-start">74872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnInvalidLogin</span>
+                <span class="method-start">75158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnInvalidLogin status=SUCCESS method=AddScreenshotToReport.ClickOnInvalidLogin...)</span>
+                <span class="method-start">83117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnLogin</span>
+                <span class="method-start">83418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnLogin status=SUCCESS method=AddScreenshotToReport.ClickOnLogin()[pri:5, inst...)</span>
+                <span class="method-start">95323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnSearch</span>
+                <span class="method-start">100090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnSearch status=SUCCESS method=AddScreenshotToReport.ClickOnSearch()[pri:6, in...)</span>
+                <span class="method-start">105291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnSearchUser</span>
+                <span class="method-start">105687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnSearchUser status=SUCCESS method=AddScreenshotToReport.ClickOnSearchUser()[p...)</span>
+                <span class="method-start">114538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAdminEdit</span>
+                <span class="method-start">114864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAdminEdit status=SUCCESS method=AddScreenshotToReport.ClickOnAdminEdit()[pri...)</span>
+                <span class="method-start">117663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAdminUserEdit</span>
+                <span class="method-start">117980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAdminUserEdit status=SUCCESS method=AddScreenshotToReport.ClickOnAdminUserEd...)</span>
+                <span class="method-start">119264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAdminAdd</span>
+                <span class="method-start">119555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAdminAdd status=SUCCESS method=AddScreenshotToReport.ClickOnAdminAdd()[pri:1...)</span>
+                <span class="method-start">128403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAddUserSave</span>
+                <span class="method-start">129598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAddUserSave status=SUCCESS method=AddScreenshotToReport.ClickOnAddUserSave()...)</span>
+                <span class="method-start">147329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnPIM</span>
+                <span class="method-start">148266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnPIM status=SUCCESS method=AddScreenshotToReport.ClickOnPIM()[pri:12, instanc...)</span>
+                <span class="method-start">153888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAddEmployee</span>
+                <span class="method-start">154261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAddEmployee status=SUCCESS method=AddScreenshotToReport.ClickOnAddEmployee()...)</span>
+                <span class="method-start">156728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAddEmployeeSave</span>
+                <span class="method-start">157378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAddEmployeeSave status=SUCCESS method=AddScreenshotToReport.ClickOnAddEmploy...)</span>
+                <span class="method-start">160185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnEmployeeReports</span>
+                <span class="method-start">162514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnEmployeeReports status=SUCCESS method=AddScreenshotToReport.ClickOnEmployeeR...)</span>
+                <span class="method-start">167008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnViewReports</span>
+                <span class="method-start">167702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnViewReports status=SUCCESS method=AddScreenshotToReport.ClickOnViewReports()...)</span>
+                <span class="method-start">170083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnLeave</span>
+                <span class="method-start">170381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnLeave status=SUCCESS method=AddScreenshotToReport.ClickOnLeave()[pri:17, ins...)</span>
+                <span class="method-start">176027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnTime</span>
+                <span class="method-start">178542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnTime status=SUCCESS method=AddScreenshotToReport.ClickOnTime()[pri:18, insta...)</span>
+                <span class="method-start">181090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnRecruitment</span>
+                <span class="method-start">181777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnRecruitment status=SUCCESS method=AddScreenshotToReport.ClickOnRecruitment()...)</span>
+                <span class="method-start">184214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnDashboard</span>
+                <span class="method-start">184696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnDashboard status=SUCCESS method=AddScreenshotToReport.ClickOnDashboard()[pri...)</span>
+                <span class="method-start">186918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnLogout</span>
+                <span class="method-start">187458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnLogout status=SUCCESS method=AddScreenshotToReport.ClickOnLogout()[pri:21, i...)</span>
+                <span class="method-start">191379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">192417 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,34 @@
+package com.smoketestcases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.pages.LoginPage;
+import com.testbase.TestBase;
+
+public class LoginPageTC extends TestBase {
+	
+	LoginPage loginpage;
+	
+	public LoginPageTC() {
+		super();
+	}
+	
+	@BeforeClass
+
+	public void SetUp() {
+		initialization();
+		loginpage = new LoginPage();
+	}
+	
+	@Test(priority = 1)
+
+	public void ClickOnLogin() {
+		loginpage.clickLogin();
+		String pText = loginpage.getAdminText();
+		Assert.assertEquals(pText, "Send message", "Validated Click on Contact Link");
+		//Assert.assertEquals(homepage.checkContactVisible(), true);
+	}
+
+}

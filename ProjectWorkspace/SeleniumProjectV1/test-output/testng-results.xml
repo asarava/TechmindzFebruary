@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T12:38:17 IST" name="Suite" finished-at="2023-07-09T12:41:36 IST" duration-ms="199236">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T12:38:17 IST" name="Test" finished-at="2023-07-09T12:41:36 IST" duration-ms="199236">
+      <class name="com.smoketestcases.AddScreenshotToReport">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:38:17 IST" name="setExtent" finished-at="2023-07-09T12:38:20 IST" duration-ms="2786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:38:20 IST" name="setUp" finished-at="2023-07-09T12:39:09 IST" duration-ms="48861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickOnForgotPassword()[pri:1, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:09 IST" name="ClickOnForgotPassword" finished-at="2023-07-09T12:39:20 IST" duration-ms="11558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnForgotPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:20 IST" name="tearDown" finished-at="2023-07-09T12:39:21 IST" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnForgotPassword status=SUCCESS method=AddScreenshotToReport.ClickOnForgotPassword()[pri:1, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnCancelPassword()[pri:2, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:21 IST" name="ClickOnCancelPassword" finished-at="2023-07-09T12:39:26 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCancelPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:26 IST" name="tearDown" finished-at="2023-07-09T12:39:27 IST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnCancelPassword status=SUCCESS method=AddScreenshotToReport.ClickOnCancelPassword()[pri:2, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnReqLogin()[pri:3, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:27 IST" name="ClickOnReqLogin" finished-at="2023-07-09T12:39:32 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnReqLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:32 IST" name="tearDown" finished-at="2023-07-09T12:39:32 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnReqLogin status=SUCCESS method=AddScreenshotToReport.ClickOnReqLogin()[pri:3, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnInvalidLogin()[pri:4, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:32 IST" name="ClickOnInvalidLogin" finished-at="2023-07-09T12:39:40 IST" duration-ms="7949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnInvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:40 IST" name="tearDown" finished-at="2023-07-09T12:39:40 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnInvalidLogin status=SUCCESS method=AddScreenshotToReport.ClickOnInvalidLogin()[pri:4, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnLogin()[pri:5, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:40 IST" name="ClickOnLogin" finished-at="2023-07-09T12:39:52 IST" duration-ms="11901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:52 IST" name="tearDown" finished-at="2023-07-09T12:39:57 IST" duration-ms="4764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogin status=SUCCESS method=AddScreenshotToReport.ClickOnLogin()[pri:5, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnSearch()[pri:6, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:39:57 IST" name="ClickOnSearch" finished-at="2023-07-09T12:40:02 IST" duration-ms="5191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:02 IST" name="tearDown" finished-at="2023-07-09T12:40:03 IST" duration-ms="394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnSearch status=SUCCESS method=AddScreenshotToReport.ClickOnSearch()[pri:6, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnSearchUser()[pri:7, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:03 IST" name="ClickOnSearchUser" finished-at="2023-07-09T12:40:11 IST" duration-ms="8843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSearchUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:11 IST" name="tearDown" finished-at="2023-07-09T12:40:12 IST" duration-ms="323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnSearchUser status=SUCCESS method=AddScreenshotToReport.ClickOnSearchUser()[pri:7, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAdminEdit()[pri:8, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:12 IST" name="ClickOnAdminEdit" finished-at="2023-07-09T12:40:15 IST" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAdminEdit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:15 IST" name="tearDown" finished-at="2023-07-09T12:40:15 IST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAdminEdit status=SUCCESS method=AddScreenshotToReport.ClickOnAdminEdit()[pri:8, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAdminUserEdit()[pri:9, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:15 IST" name="ClickOnAdminUserEdit" finished-at="2023-07-09T12:40:16 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAdminUserEdit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:16 IST" name="tearDown" finished-at="2023-07-09T12:40:16 IST" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAdminUserEdit status=SUCCESS method=AddScreenshotToReport.ClickOnAdminUserEdit()[pri:9, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAdminAdd()[pri:10, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:16 IST" name="ClickOnAdminAdd" finished-at="2023-07-09T12:40:25 IST" duration-ms="8846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAdminAdd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:25 IST" name="tearDown" finished-at="2023-07-09T12:40:26 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAdminAdd status=SUCCESS method=AddScreenshotToReport.ClickOnAdminAdd()[pri:10, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAddUserSave()[pri:11, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:26 IST" name="ClickOnAddUserSave" finished-at="2023-07-09T12:40:44 IST" duration-ms="17729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAddUserSave -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:44 IST" name="tearDown" finished-at="2023-07-09T12:40:45 IST" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAddUserSave status=SUCCESS method=AddScreenshotToReport.ClickOnAddUserSave()[pri:11, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnPIM()[pri:12, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:45 IST" name="ClickOnPIM" finished-at="2023-07-09T12:40:51 IST" duration-ms="5614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnPIM -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:51 IST" name="tearDown" finished-at="2023-07-09T12:40:51 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnPIM status=SUCCESS method=AddScreenshotToReport.ClickOnPIM()[pri:12, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAddEmployee()[pri:13, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:51 IST" name="ClickOnAddEmployee" finished-at="2023-07-09T12:40:54 IST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAddEmployee -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:54 IST" name="tearDown" finished-at="2023-07-09T12:40:54 IST" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAddEmployee status=SUCCESS method=AddScreenshotToReport.ClickOnAddEmployee()[pri:13, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAddEmployeeSave()[pri:14, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:54 IST" name="ClickOnAddEmployeeSave" finished-at="2023-07-09T12:40:57 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAddEmployeeSave -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:57 IST" name="tearDown" finished-at="2023-07-09T12:40:59 IST" duration-ms="2327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAddEmployeeSave status=SUCCESS method=AddScreenshotToReport.ClickOnAddEmployeeSave()[pri:14, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnEmployeeReports()[pri:15, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:40:59 IST" name="ClickOnEmployeeReports" finished-at="2023-07-09T12:41:04 IST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnEmployeeReports -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:04 IST" name="tearDown" finished-at="2023-07-09T12:41:05 IST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnEmployeeReports status=SUCCESS method=AddScreenshotToReport.ClickOnEmployeeReports()[pri:15, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnViewReports()[pri:16, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:05 IST" name="ClickOnViewReports" finished-at="2023-07-09T12:41:07 IST" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnViewReports -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:07 IST" name="tearDown" finished-at="2023-07-09T12:41:07 IST" duration-ms="296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnViewReports status=SUCCESS method=AddScreenshotToReport.ClickOnViewReports()[pri:16, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnLeave()[pri:17, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:07 IST" name="ClickOnLeave" finished-at="2023-07-09T12:41:13 IST" duration-ms="5643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLeave -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:13 IST" name="tearDown" finished-at="2023-07-09T12:41:15 IST" duration-ms="2513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLeave status=SUCCESS method=AddScreenshotToReport.ClickOnLeave()[pri:17, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnTime()[pri:18, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:15 IST" name="ClickOnTime" finished-at="2023-07-09T12:41:18 IST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:18 IST" name="tearDown" finished-at="2023-07-09T12:41:19 IST" duration-ms="683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnTime status=SUCCESS method=AddScreenshotToReport.ClickOnTime()[pri:18, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnRecruitment()[pri:19, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:19 IST" name="ClickOnRecruitment" finished-at="2023-07-09T12:41:21 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRecruitment -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:21 IST" name="tearDown" finished-at="2023-07-09T12:41:22 IST" duration-ms="480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnRecruitment status=SUCCESS method=AddScreenshotToReport.ClickOnRecruitment()[pri:19, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnDashboard()[pri:20, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:22 IST" name="ClickOnDashboard" finished-at="2023-07-09T12:41:24 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnDashboard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:24 IST" name="tearDown" finished-at="2023-07-09T12:41:24 IST" duration-ms="539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnDashboard status=SUCCESS method=AddScreenshotToReport.ClickOnDashboard()[pri:20, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnLogout()[pri:21, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:24 IST" name="ClickOnLogout" finished-at="2023-07-09T12:41:28 IST" duration-ms="3894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:28 IST" name="tearDown" finished-at="2023-07-09T12:41:29 IST" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogout status=SUCCESS method=AddScreenshotToReport.ClickOnLogout()[pri:21, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.smoketestcases.AddScreenshotToReport@3e11f9e9]" started-at="2023-07-09T12:41:29 IST" name="endReport" finished-at="2023-07-09T12:41:36 IST" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.smoketestcases.AddScreenshotToReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

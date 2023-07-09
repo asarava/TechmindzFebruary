@@ -1,0 +1,73 @@
+package com.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+
+import com.wrapper.Wrapper;
+import com.testbase.TestBase;
+
+
+public class LoginPage extends TestBase {
+	
+	Wrapper wrrObj = new Wrapper();
+
+	@FindBy (xpath = "//*[@name='username']")
+	WebElement pUsername;
+	
+	@FindBy (xpath = "//*[@name='password']")
+	WebElement pPassword;
+	
+	@FindBy (xpath = "//*[@type='submit']")
+	WebElement pSubmit;
+	
+	@FindBy (xpath = "//*[text()='Admin']")
+	WebElement pAdmin;
+	
+	@FindBy (xpath = "(//*[text()='Required'])[1]")
+	WebElement pUserRequired;
+	
+	
+	
+	public LoginPage(){
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void enterUsername()
+	{
+		pUsername.sendKeys("Admin");
+	}
+	
+	public void emptyUsername()
+	{
+		pUsername.sendKeys(" ");
+	}
+	
+	public void enterPassword()
+	{
+		pPassword.sendKeys("admin123");
+	}
+	
+	public void emptyPassword()
+	{
+		pPassword.sendKeys(" ");
+	}
+	
+	public void clickLogin()
+	{
+		pSubmit.click();
+		wrrObj.waitForElement(pAdmin);
+	}
+	
+	public String getAdminText()
+	{
+		String pText=pAdmin.getText();
+		return pText;
+	}
+	
+
+}

@@ -1,0 +1,82 @@
+package com.smoketestcases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.pages.LoginPage;
+import com.testbase.TestBase;
+
+public class LoginPageTC extends TestBase {
+	
+	LoginPage loginpage;
+	
+	public LoginPageTC() {
+		super();
+	}
+	
+	@BeforeClass
+
+	public void SetUp() {
+		initialization();
+		loginpage = new LoginPage();
+	}
+	
+	@Test(priority = 1)
+
+	public void ClickOnForgotPassword() {
+		loginpage.clickForgotPassword();
+		String pText = loginpage.getResetPassText();
+		Assert.assertEquals(pText, "Reset Password", "Validated Click on ForgotPassword");
+	}
+	
+	@Test(priority = 2)
+
+	public void ClickOnCancelPassword() {
+		loginpage.clickCancelPassword();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on CancelPassword");
+	}
+	
+	@Test(priority = 3)
+
+	public void ClickOnReqLogin() {
+		loginpage.emptyUsername();
+		loginpage.emptyPassword();
+		loginpage.clickEmptyLogin();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on Login Text");
+	}
+	
+	@Test(priority = 4)
+
+	public void ClickOnInvalidLogin() {
+		loginpage.clear();
+		loginpage.InvalidUsername();
+		loginpage.InvalidPassword();
+		loginpage.clickInvalidLogin();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on Login Text");
+	}
+	
+	@Test(priority = 5)
+
+	public void ClickOnLogin() {
+		loginpage.clear();
+		loginpage.enterUsername();
+		loginpage.enterPassword();
+		loginpage.clickLogin();
+		String pText = loginpage.getAdminText();
+		Assert.assertEquals(pText, "Admin", "Validated Click on Login");	
+	}
+	
+	@Test(priority = 6)
+
+	public void ClickOnSearch() {
+		loginpage.clickSearch("Admin");
+		Assert.assertEquals(loginpage.getSearchText(), "Admin\r\n" + "/"
+				+ "User Management");
+	
+	}
+
+}

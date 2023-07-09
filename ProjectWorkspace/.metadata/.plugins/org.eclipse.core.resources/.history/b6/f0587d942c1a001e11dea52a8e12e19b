@@ -1,0 +1,33 @@
+package com.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+
+import com.wrapper.Wrapper;
+import com.testbase.TestBase;
+
+
+public class LoginPage extends TestBase {
+	
+	Wrapper wrrObj = new Wrapper();
+
+	@FindBy (xpath = "//*[@name='username']")
+	WebElement pUsername;
+	
+	@FindBy (xpath = "//*[@name='password']")
+	WebElement pPassword;
+	
+	@FindBy (xpath = "//*[@type='submit']")
+	WebElement pSubmit;
+	
+	
+	public LoginPage(){
+		PageFactory.initElements(driver, this);
+	}
+
+}

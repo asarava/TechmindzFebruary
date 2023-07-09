@@ -1,0 +1,108 @@
+package com.smoketestcases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.pages.LoginPage;
+import com.testbase.TestBase;
+
+public class LoginPageTC extends TestBase {
+	
+	LoginPage loginpage;
+	
+	public LoginPageTC() {
+		super();
+	}
+	
+	@BeforeClass
+
+	public void SetUp() {
+		initialization();
+		loginpage = new LoginPage();
+	}
+	
+	@Test(priority = 1)
+
+	public void ClickOnForgotPassword() {
+		loginpage.clickForgotPassword();
+		String pText = loginpage.getResetPassText();
+		Assert.assertEquals(pText, "Reset Password", "Validated Click on ForgotPassword");
+	}
+	
+	@Test(priority = 2)
+
+	public void ClickOnCancelPassword() {
+		loginpage.clickCancelPassword();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on CancelPassword");
+	}
+	
+	@Test(priority = 3)
+
+	public void ClickOnReqLogin() {
+		loginpage.emptyUsername();
+		loginpage.emptyPassword();
+		loginpage.clickEmptyLogin();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on Login Text");
+	}
+	
+	@Test(priority = 4)
+
+	public void ClickOnInvalidLogin() {
+		loginpage.clear();
+		loginpage.InvalidUsername();
+		loginpage.InvalidPassword();
+		loginpage.clickInvalidLogin();
+		String pText = loginpage.getLoginText();
+		Assert.assertEquals(pText, "Login", "Validated Click on Login Text");
+	}
+	
+	@Test(priority = 5)
+
+	public void ClickOnLogin() {
+		loginpage.clear();
+		loginpage.enterUsername();
+		loginpage.enterPassword();
+		loginpage.clickLogin();
+		String pText = loginpage.getAdminText();
+		Assert.assertEquals(pText, "Admin", "Validated Click on Login");	
+	}
+	
+	@Test(priority = 6)
+
+	public void ClickOnSearch() {
+		loginpage.clickSearch("Admin");
+		Assert.assertEquals(loginpage.getSearchText(), "Admin");
+	}
+	
+	@Test(priority = 7)
+
+	public void ClickOnAdminAdd() {
+		loginpage.clickAdminAdd();
+		String pText = loginpage.getSaveText();
+		Assert.assertEquals(pText, "Save", "Validated Click on Add button");
+	}
+	
+	@Test(priority = 8)
+
+	public void ClickOnSearchUser() {
+		loginpage.clickSearchUser();
+		String pText = loginpage.getRecordlistText();
+		Assert.assertEquals(pText, "(1) Record Found", "Validated Click on Search button");
+	}
+	
+//	@Test(priority = 9)
+//
+//	public void ClickOnUserRole() throws InterruptedException {
+////		loginpage.ClickUserRole("ESS");
+////		Assert.assertEquals(loginpage.getUserRole(),"ESS");
+//		loginpage.enterEmployeeName("Odis Adalwin");
+//		Assert.assertEquals(loginpage.getEmployeeName(),"Odis Adalwin");
+////		loginpage.ClickStatus("Enabled");
+//
+//	}
+
+
+}

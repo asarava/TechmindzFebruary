@@ -1,0 +1,219 @@
+package com.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.wrapper.Wrapper;
+import com.testbase.TestBase;
+
+public class LoginPage extends TestBase {
+
+	Wrapper wrrObj = new Wrapper();
+
+	@FindBy(xpath = "//*[@name='username']")
+	WebElement pUsername;
+
+	@FindBy(xpath = "//*[@name='password']")
+	WebElement pPassword;
+
+	@FindBy(xpath = "//*[@type='submit']")
+	WebElement pSubmit;
+
+	@FindBy(xpath = "//*[text()='Admin']")
+	WebElement pAdmin;
+
+	@FindBy(xpath = "(//*[text()='Required'])[1]")
+	WebElement pUserRequired;
+	@FindBy(xpath = "(//*[text()='Required'])[2]")
+	WebElement pPassRequired;
+
+	@FindBy(xpath = "//*[text()='Login']")
+	WebElement pLoginText;
+
+	@FindBy(xpath = "//*[@role='alert']//div//p")
+	WebElement pInvalid;
+
+	@FindBy(xpath = "//*[@class='orangehrm-login-forgot']//p")
+	WebElement pForgotPaswword;
+
+	@FindBy(xpath = "//*[@type='submit']")
+	WebElement pResetPaswword;
+
+	@FindBy(xpath = "//*[@type='button']")
+	WebElement pCancelPaswword;
+
+	@FindBy(xpath = "//*[@placeholder='Search']")
+	WebElement pSearch;
+
+	@FindBy(xpath = "//*[@class='oxd-topbar-header-title']//span//h6")
+	WebElement pHeading;
+
+	@FindBy(xpath = "//*[@class='orangehrm-header-container']//button//i")
+	WebElement pAdminAdd;
+
+	@FindBy(xpath = "//*[@type='submit']")
+	WebElement pAdminSave;
+
+	@FindBy(xpath = "(//*[@class='oxd-select-wrapper']//div)[1]")
+	WebElement pUserRole;
+
+	@FindBy(xpath = "(//*[@class='oxd-select-text-input'])[1]")
+	WebElement pSelectUserRole;
+	
+	@FindBy(xpath = "(//*[@class='oxd-select-wrapper']//div)[4]")
+	WebElement pStatus;
+	
+	@FindBy(xpath = "//*[@placeholder='Type for hints...']")
+	WebElement pEmployeeName;
+	
+	
+	
+	
+
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	public void enterUsername() {
+		pUsername.sendKeys("Admin");
+	}
+
+	public void emptyUsername() {
+		pUsername.sendKeys("");
+	}
+
+	public void InvalidUsername() {
+		pUsername.sendKeys("abcd");
+	}
+
+	public void enterPassword() {
+		pPassword.sendKeys("admin123");
+	}
+
+	public void InvalidPassword() {
+		pPassword.sendKeys("abcd123");
+	}
+
+	public void emptyPassword() {
+		pPassword.sendKeys("");
+	}
+
+	public void clickLogin() {
+		pSubmit.click();
+		wrrObj.waitForElement(pAdmin);
+	}
+
+	public void clickEmptyLogin() {
+		pSubmit.click();
+		wrrObj.waitForElement(pLoginText);
+	}
+
+	public void clickInvalidLogin() {
+		pSubmit.click();
+		wrrObj.waitForElement(pLoginText);
+	}
+
+	public void clear() {
+		pUsername.clear();
+		pPassword.clear();
+	}
+
+	public String getAdminText() {
+		String pText = pAdmin.getText();
+		return pText;
+	}
+
+	public String getLoginText() {
+		String pText = pLoginText.getText();
+		return pText;
+	}
+
+	public void clickForgotPassword() {
+		pForgotPaswword.click();
+		wrrObj.waitForElement(pResetPaswword);
+	}
+
+	public String getResetPassText() {
+		String pText = pResetPaswword.getText();
+		return pText;
+	}
+
+	public void clickCancelPassword() {
+		pCancelPaswword.click();
+		wrrObj.waitForElement(pLoginText);
+	}
+
+	public void clickSearch(String pValue) {
+		pSearch.click();
+		pSearch.sendKeys("Ad");
+		List<WebElement> pSearchList = driver
+				.findElements(By.xpath("//*[@class='oxd-main-menu-item-wrapper']//a//span"));
+
+		for (WebElement pElement : pSearchList) {
+			if (pElement.getText().equalsIgnoreCase(pValue)) {
+				pElement.click();
+				break;
+			}
+		}
+	}
+
+	public String getSearchText() {
+		String pSearchlist = pHeading.getText();
+		return pSearchlist;
+	}
+
+	public void clickAdminAdd() {
+		pAdminAdd.click();
+		wrrObj.waitForElement(pAdminSave);
+	}
+
+	public String getSaveText() {
+		String pText = pAdminSave.getText();
+		return pText;
+	}
+
+	public void ClickUserRole(String pValue) {
+		pUserRole.click();
+		List<WebElement> pDropDownList = driver.findElements(By.xpath("(//*[@class='oxd-select-wrapper']//div//div)[1]"));
+		for (WebElement pElement : pDropDownList) {
+			if (pElement.getText().equalsIgnoreCase(pValue)) {
+				pElement.click();
+				break;
+
+			}
+		}
+	}
+	
+	public void enterEmployeeName(String pValue) {
+		pEmployeeName.click();
+		pEmployeeName.sendKeys("Ad");
+		List<WebElement> pEmployeeList = driver
+				.findElements(By.xpath("//*[@placeholder='Type for hints...']"));
+
+		for (WebElement pElement : pEmployeeList) {
+			if (pElement.getText().equalsIgnoreCase(pValue)) {
+				pElement.click();
+				break;
+			}
+		}
+	}
+	
+	public void ClickStatus(String pValue) {
+		pStatus.click();
+		//pUserRole.click();
+		List<WebElement> pDropDownList1 = driver.findElements(By.xpath("(//*[@class='oxd-select-text-input'])[2]"));
+		for (WebElement pElement : pDropDownList1) {
+			if (pElement.getText().equalsIgnoreCase(pValue)) {
+				pElement.click();
+				break;
+
+			}
+		}
+	}
+	
+
+}
