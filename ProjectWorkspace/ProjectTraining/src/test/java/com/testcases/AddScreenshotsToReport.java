@@ -2,8 +2,6 @@ package com.testcases;
 
 import java.io.IOException;
 
-import javax.swing.text.Utilities;
-
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -17,6 +15,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.testBase.TestBase;
+import com.utilities.Utilities;
 import com.wrapper.Wrapper;
 
 public class AddScreenshotsToReport extends TestBase {
@@ -25,24 +24,26 @@ public class AddScreenshotsToReport extends TestBase {
 	Utilities objUtilities;
 	public ExtentReports extent;
 	public ExtentTest extentTest;
+	
 	public AddScreenshotsToReport() {
 		super();
 	}
 	@BeforeTest
 	public void setExtent() {
 	extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/ExtentReport.html", true);
-	extent.addSystemInfo("Host Name", "Ranjima pv");
-	extent.addSystemInfo("User Name", "Ranjima pv");
+	extent.addSystemInfo("Host Name", "Ranjima PV");
+	extent.addSystemInfo("User Name", "Ranjima PV");
 	extent.addSystemInfo("Environment", "Project");
 	}
 
-@BeforeClass
-public void setUp() {
-initialization();
-homePage = new HomePage();
-wrapobj = new Wrapper();
-objUtilities = new Utilities();
-}
+	@BeforeClass
+	public void setUp() {
+		initialization();
+		homePage = new HomePage();
+		wrapobj = new Wrapper();
+		objUtilities = new Utilities();
+	}
+
 
 @Test(priority=1)
 public void ViewLoginButton()  {
@@ -90,7 +91,7 @@ public void ClickOnFPassword() {
 	
 }
 
-/*@Test(priority=5)
+@Test(priority=5)
 public void ClickOnUsername() {
 	extentTest = extent.startTest("ClickOnUsername");
 	homePage.enterUsername();
@@ -199,46 +200,29 @@ public void ClickOnLogout() {
 	homePage.clickLogout();
 	boolean pFlag=homePage.checkLoginVisible();
 	Assert.assertEquals(pFlag,true);
-}*/
+}
+
 @AfterMethod
 public void tearDown(ITestResult result) throws IOException {
-if (result.getStatus() == ITestResult.FAILURE) {
-extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getName());
-extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getThrowable());
-String screenshotPath = objUtilities.getScreenshot(driver, result.getName());
-extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
-} else if (result.getStatus() == ITestResult.SKIP) {
-extentTest.log(LogStatus.SKIP, "Test Case SKIPPED IS " + result.getName());
-} else if (result.getStatus() == ITestResult.SUCCESS) {
-extentTest.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
-String screenshotPath = objUtilities.getScreenshot(driver, result.getName());
-extentTest.log(LogStatus.PASS, extentTest.addScreenCapture(screenshotPath));
-}
-extent.endTest(extentTest);
-}
-@AfterTest
-public void endReport() {
-extent.flush();
-extent.close();
-driver.quit();
-}
-/*@Test(priority=12)
-public void ClickOnEdit() throws InterruptedException {
-	homePage.clickPIM();
-	homePage.clickEdit();
-	homePage.enterMName();
-	homePage.clickSave1();
-	boolean pFlag=homePage.checkMyInfoVisible();
-	Assert.assertEquals(pFlag,true);
-}
-@Test(priority=5)
-public void ClickOnResetPW() throws InterruptedException  {
-	homePage.clickFPassword();
-	homePage.clickResetPassword();
-	String pText=homePage.getFPAlertText();
-	Assert.assertEquals(pText,"Reset Password link sent successfully");
-	boolean pFlag=homePage.alertPresent();
-	Assert.assertEquals(pFlag,true);
-	}*/
+	if (result.getStatus() == ITestResult.FAILURE) {
+	extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getName());
+	extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getThrowable());
+	String screenshotPath = objUtilities.getScreenshot(driver, result.getName());
+	extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath));
+	} else if (result.getStatus() == ITestResult.SKIP) {
+	extentTest.log(LogStatus.SKIP, "Test Case SKIPPED IS " + result.getName());
+	} else if (result.getStatus() == ITestResult.SUCCESS) {
+	extentTest.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
+	String screenshotPath = objUtilities.getScreenshot(driver, result.getName());
+	extentTest.log(LogStatus.PASS, extentTest.addScreenCapture(screenshotPath));
+	}
+	extent.endTest(extentTest);
+	}
+	@AfterTest
+	public void endReport() {
+	extent.flush();
+	extent.close();
+	driver.quit();
+	}
 
 }

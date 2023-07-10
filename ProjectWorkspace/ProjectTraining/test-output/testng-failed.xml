@@ -5,13 +5,24 @@
     <classes>
       <class name="com.testcases.AddScreenshotsToReport">
         <methods>
-          <include name="ViewUserPW"/>
           <include name="endReport"/>
-          <include name="ViewTitle"/>
+          <include name="ClickOnTime"/>
           <include name="tearDown"/>
-          <include name="setExtent"/>
+          <include name="ClickOnUsername"/>
+          <include name="ClickOnLogout"/>
+          <include name="ClickOnAdd"/>
           <include name="ClickOnFPassword"/>
+          <include name="ViewUserPW"/>
+          <include name="ViewTitle"/>
+          <include name="ClickOnESearch"/>
+          <include name="ClickOnSearch"/>
+          <include name="ClickOnPassword"/>
+          <include name="setExtent"/>
+          <include name="ClickOnFirst"/>
+          <include name="ViewDashBoard"/>
           <include name="setUp"/>
+          <include name="ClickOnLogin"/>
+          <include name="ClickOnImage"/>
         </methods>
       </class> <!-- com.testcases.AddScreenshotsToReport -->
     </classes>

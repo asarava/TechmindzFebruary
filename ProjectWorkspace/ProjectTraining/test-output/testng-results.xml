@@ -1,248 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T13:36:28 IST" name="Suite" finished-at="2023-07-10T13:36:41 IST" duration-ms="12730">
+  <suite started-at="2023-07-10T19:04:27 IST" name="Suite" finished-at="2023-07-10T19:05:29 IST" duration-ms="62196">
     <groups>
     </groups>
-    <test started-at="2023-07-10T13:36:28 IST" name="Test" finished-at="2023-07-10T13:36:41 IST" duration-ms="12730">
+    <test started-at="2023-07-10T19:04:27 IST" name="Test" finished-at="2023-07-10T19:05:29 IST" duration-ms="62196">
       <class name="com.testcases.AddScreenshotsToReport">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:28 IST" name="setExtent" finished-at="2023-07-10T13:36:28 IST" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:27 IST" name="setExtent" finished-at="2023-07-10T19:04:27 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:28 IST" name="setUp" finished-at="2023-07-10T13:36:40 IST" duration-ms="11602" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:27 IST" name="setUp" finished-at="2023-07-10T19:04:42 IST" duration-ms="14956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ViewLoginButton()[pri:1, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:40 IST" name="ViewLoginButton" finished-at="2023-07-10T13:36:41 IST" duration-ms="859" status="PASS">
+        <test-method signature="ViewLoginButton()[pri:1, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:42 IST" name="ViewLoginButton" finished-at="2023-07-10T19:04:43 IST" duration-ms="1269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewLoginButton -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="tearDown" finished-at="2023-07-10T13:36:41 IST" duration-ms="4" status="FAIL">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:43 IST" name="tearDown" finished-at="2023-07-10T19:04:44 IST" duration-ms="498" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ViewLoginButton status=SUCCESS method=AddScreenshotsToReport.ViewLoginButton()[pri:1, instance:com.testcases.AddScreenshotsToReport@1b11171f] output={null}]]]>
+                <![CDATA[[TestResult name=ViewLoginButton status=SUCCESS method=AddScreenshotsToReport.ViewLoginButton()[pri:1, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-
-at com.testcases.AddScreenshotsToReport.tearDown(AddScreenshotsToReport.java:208)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="ViewTitle()[pri:2, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="ViewTitle" finished-at="2023-07-10T13:36:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-
-at com.testcases.AddScreenshotsToReport.tearDown(AddScreenshotsToReport.java:208)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="ViewTitle()[pri:2, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:44 IST" name="ViewTitle" finished-at="2023-07-10T19:04:44 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewTitle -->
-        <test-method signature="ViewUserPW()[pri:3, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="ViewUserPW" finished-at="2023-07-10T13:36:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-
-at com.testcases.AddScreenshotsToReport.tearDown(AddScreenshotsToReport.java:208)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:44 IST" name="tearDown" finished-at="2023-07-10T19:04:44 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewTitle status=SUCCESS method=AddScreenshotsToReport.ViewTitle()[pri:2, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ViewUserPW()[pri:3, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:44 IST" name="ViewUserPW" finished-at="2023-07-10T19:04:44 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewUserPW -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1688976401375" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:44 IST" name="tearDown" finished-at="2023-07-10T19:04:45 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewUserPW status=SUCCESS method=AddScreenshotsToReport.ViewUserPW()[pri:3, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1688976401388" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="ClickOnFPassword()[pri:4, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="ClickOnFPassword" finished-at="2023-07-10T13:36:41 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-The method getScreenshot(WebDriver, String) is undefined for the type Utilities
-
-at com.testcases.AddScreenshotsToReport.tearDown(AddScreenshotsToReport.java:208)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="ClickOnFPassword()[pri:4, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:45 IST" name="ClickOnFPassword" finished-at="2023-07-10T19:04:47 IST" duration-ms="2604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnFPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1688976401396" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:47 IST" name="tearDown" finished-at="2023-07-10T19:04:48 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnFPassword status=SUCCESS method=AddScreenshotsToReport.ClickOnFPassword()[pri:4, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testcases.AddScreenshotsToReport@1b11171f]" started-at="2023-07-10T13:36:41 IST" name="endReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1688976401396" status="SKIP">
+        <test-method signature="ClickOnUsername()[pri:5, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:48 IST" name="ClickOnUsername" finished-at="2023-07-10T19:04:48 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:48 IST" name="tearDown" finished-at="2023-07-10T19:04:48 IST" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnUsername status=SUCCESS method=AddScreenshotsToReport.ClickOnUsername()[pri:5, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnPassword()[pri:6, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:48 IST" name="ClickOnPassword" finished-at="2023-07-10T19:04:48 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:48 IST" name="tearDown" finished-at="2023-07-10T19:04:48 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnPassword status=SUCCESS method=AddScreenshotsToReport.ClickOnPassword()[pri:6, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnLogin()[pri:7, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:48 IST" name="ClickOnLogin" finished-at="2023-07-10T19:04:51 IST" duration-ms="2923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:51 IST" name="tearDown" finished-at="2023-07-10T19:04:52 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogin status=SUCCESS method=AddScreenshotsToReport.ClickOnLogin()[pri:7, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ViewDashBoard()[pri:8, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:52 IST" name="ViewDashBoard" finished-at="2023-07-10T19:04:52 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewDashBoard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:52 IST" name="tearDown" finished-at="2023-07-10T19:04:52 IST" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewDashBoard status=SUCCESS method=AddScreenshotsToReport.ViewDashBoard()[pri:8, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnSearch()[pri:9, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:52 IST" name="ClickOnSearch" finished-at="2023-07-10T19:04:55 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:55 IST" name="tearDown" finished-at="2023-07-10T19:04:55 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnSearch status=SUCCESS method=AddScreenshotsToReport.ClickOnSearch()[pri:9, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnFirst()[pri:10, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:04:55 IST" name="ClickOnFirst" finished-at="2023-07-10T19:05:01 IST" duration-ms="5745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnFirst -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:01 IST" name="tearDown" finished-at="2023-07-10T19:05:01 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnFirst status=SUCCESS method=AddScreenshotsToReport.ClickOnFirst()[pri:10, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnAdd()[pri:11, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:01 IST" name="ClickOnAdd" finished-at="2023-07-10T19:05:13 IST" duration-ms="12124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAdd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:13 IST" name="tearDown" finished-at="2023-07-10T19:05:13 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnAdd status=SUCCESS method=AddScreenshotsToReport.ClickOnAdd()[pri:11, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnESearch()[pri:12, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:13 IST" name="ClickOnESearch" finished-at="2023-07-10T19:05:20 IST" duration-ms="6534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnESearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:20 IST" name="tearDown" finished-at="2023-07-10T19:05:20 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnESearch status=SUCCESS method=AddScreenshotsToReport.ClickOnESearch()[pri:12, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnTime()[pri:13, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:20 IST" name="ClickOnTime" finished-at="2023-07-10T19:05:25 IST" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTime -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:25 IST" name="tearDown" finished-at="2023-07-10T19:05:25 IST" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnTime status=SUCCESS method=AddScreenshotsToReport.ClickOnTime()[pri:13, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnImage()[pri:14, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:25 IST" name="ClickOnImage" finished-at="2023-07-10T19:05:26 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnImage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:26 IST" name="tearDown" finished-at="2023-07-10T19:05:26 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnImage status=SUCCESS method=AddScreenshotsToReport.ClickOnImage()[pri:14, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ClickOnLogout()[pri:15, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:26 IST" name="ClickOnLogout" finished-at="2023-07-10T19:05:28 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:28 IST" name="tearDown" finished-at="2023-07-10T19:05:28 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnLogout status=SUCCESS method=AddScreenshotsToReport.ClickOnLogout()[pri:15, instance:com.testcases.AddScreenshotsToReport@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testcases.AddScreenshotsToReport@59505b48]" started-at="2023-07-10T19:05:28 IST" name="endReport" finished-at="2023-07-10T19:05:29 IST" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

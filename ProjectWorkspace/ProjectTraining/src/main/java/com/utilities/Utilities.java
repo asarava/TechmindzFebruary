@@ -18,7 +18,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.testBase.TestBase;
 	
-	public class Utilities extends TestBase {
+	public class Utilities extends  TestBase {
 	static Workbook book;
 	static Sheet sheet;
 	// Reading from excel sheet.
@@ -58,5 +58,5 @@ import com.testBase.TestBase;
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
 		return destination;
-	}
+		}
 }
