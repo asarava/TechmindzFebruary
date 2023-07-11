@@ -29,10 +29,10 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "(//*[text()='Dashboard'])[1]")
 	WebElement pDashBoard;
-	
+
 	@FindBy(xpath = "//*[text()='PIM']")
 	WebElement pPIM;
-	   //Add emp
+	// Add emp
 	@FindBy(xpath = "//*[text()=' Add ']")
 	WebElement pAdd;
 
@@ -41,26 +41,26 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//*[@name='middleName']")
 	WebElement pMiddleName;
-	
+
 	@FindBy(xpath = "//*[@name='lastName']")
 	WebElement pLastName;
 
 	@FindBy(xpath = "//*[@type='submit']")
 	WebElement pSave;
-		
+
 	@FindBy(xpath = "//*[text()='Job']")
 	WebElement pJob;
-	
+
 	@FindBy(xpath = "(//*[@type='submit'])[1]")
 	WebElement pJobSave;
-	
+
 	@FindBy(xpath = "(//*[@class='oxd-select-text-input'])[1]")
 	WebElement pJobTitle;
-	
+
 	@FindBy(xpath = "//*[@class='oxd-text oxd-text--h6 --strong']")
 	WebElement pname;
-	
-       //search emp
+
+	// search emp
 	@FindBy(xpath = "(//*[@placeholder='Type for hints...'])[1]")
 	WebElement pEmpName;
 
@@ -69,38 +69,37 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//*[text()='Hari M']")
 	WebElement pResultEmpName;
-       //edit emp
-	@FindBy(xpath = "(//*[@class='oxd-icon-button oxd-table-cell-action-space'])[2]")
-	WebElement pEdit;
+	// edit emp
 	
-	@FindBy(xpath = "//*[@name='lastName']")
+	@FindBy(xpath = "(//button[@class='oxd-icon-button oxd-table-cell-action-space'])[2]")
+	WebElement pEditt;
+	
+	@FindBy(xpath = "(//*[@name='lastName'])[1]")
 	WebElement pEditLastName;
-	
+
 	@FindBy(xpath = "(//*[@type='submit'])[1]")
 	WebElement pEditSave;
-	
+
 	@FindBy(xpath = "(//*[text()='Employee List'])[1]")
 	WebElement pEmployeeList;
-	
+
 	@FindBy(xpath = "//*[text()='Kumar']")
 	WebElement pEditText;
-	//-------------------
 	
-	   //delete emp
+	// delete emp
 	@FindBy(xpath = "(//*[@class='oxd-icon-button oxd-table-cell-action-space'])[1]")
 	WebElement pdelete;
-	
+
 	@FindBy(xpath = "//*[text()=' Yes, Delete ']")
 	WebElement pAlertDelete;
-	  //LogOut
+	// LogOut
 	@FindBy(xpath = "//*[@class='oxd-userdropdown-tab']")
 	WebElement pLogout;
 	
 	public HomePage() {
 		PageFactory.initElements(driver, this);
-	}
-	
-	
+	}	
+
 	// Login
 	public void LoginUsername() {
 		pUserName.sendKeys("Admin");
@@ -126,105 +125,145 @@ public class HomePage extends TestBase {
 
 	// AddNewEmployee
 	public void clickPIM() {
-	pPIM.click();
-	wrrobj.waitForElement(pAdd);
+		pPIM.click();
+		wrrobj.waitForElement(pAdd);
 	}
+	
 	public void clickAdd() {
 		pAdd.click();
-		wrrobj.waitForElement(pSave);	
+		wrrobj.waitForElement(pSave);
 	}
+	
 	public void FirstName() {
 		pFirstName.sendKeys("Hari");
 	}
-
+	public boolean checkElementVisibileByFirstname() {
+		return wrrobj.checkElementVisibility(pFirstName);
+	}
 	public void MiddleName() {
 		pMiddleName.sendKeys("M");
+	}
+	public boolean checkElementVisibileByMiddlename() {
+		return wrrobj.checkElementVisibility(pMiddleName);
 	}
 	public void LastName() {
 		pLastName.sendKeys("K");
 	}
+	public boolean checkElementVisibileByLastname() {
+		return wrrobj.checkElementVisibility(pLastName);
+	}
 	public void clickSave() {
 		pSave.click();
-		//wrrobj.waitForElement(pPersonalDetails);	
+		// wrrobj.waitForElement(pPersonalDetails);
+	}
+	public boolean checkElementVisibileBySaveDetails() {
+		return wrrobj.checkElementVisibility(pSave);
 	}
 	public void clickJob() {
 		pJob.click();
 		wrrobj.waitForElement(pJobSave);
 	}
-	public void selectJob() {
-	
-	//pJobTitle.click();
-	//String pLanguageList="(//*[@class='oxd-select-text oxd-select-text--active'])[1]";
-	//List<WebElement> plangList=wrrobj.returnListOfElementsFromDropDown(pLanguageList);
-	//wrrobj.selectFromElementListValue("Account Assistant",plangList);
-	pJobTitle.sendKeys("a");
-	//List<WebElement> pToCity=driver.findElements(By.xpath("(//*[@class='oxd-select-text-input'])[1]"));
-	 //for(WebElement pElement:pToCity)
-	 //{ 
-     //   if(pElement.getText().split("\\n")[1].equalsIgnoreCase("Account Assistant")) {
-	 // pElement.click();
-	 // break;
-	 // }}	
+	public boolean checkElementVisibileByJob() {
+		return wrrobj.checkElementVisibility(pJob);
 	}
-	
+	public void selectJob() {
+
+		// pJobTitle.click();
+		// String pLanguageList="(//*[@class='oxd-select-text
+		// oxd-select-text--active'])[1]";
+		// List<WebElement>
+		// plangList=wrrobj.returnListOfElementsFromDropDown(pLanguageList);
+		// wrrobj.selectFromElementListValue("Account Assistant",plangList);
+		pJobTitle.sendKeys("a");
+		// List<WebElement>
+		// pToCity=driver.findElements(By.xpath("(//*[@class='oxd-select-text-input'])[1]"));
+		// for(WebElement pElement:pToCity)
+		// {
+		// if(pElement.getText().split("\\n")[1].equalsIgnoreCase("Account Assistant"))
+		// {
+		// pElement.click();
+		// break;
+		// }}
+	}
+
 	public boolean checkElementVisibileByPersonalDetails() {
 		return wrrobj.checkElementVisibility(pJob);
 	}
-	public void SearchWithEmpName(){
+     //Search Emp
+	public void SearchWithEmpName() {
 		pEmpName.sendKeys("Hari M");
-		wrrobj.waitForElement(pEdit);
+		wrrobj.waitForElement(pEditt);
+	}
+	public boolean checkElementVisibileBySearchEmp() {
+		return wrrobj.checkElementVisibility(pEmpName);
 	}
 	public void clickSearch() {
 		pSearch.click();
 		wrrobj.waitForElement(pResultEmpName);
 	}
+
 	public boolean checkElementVisibileBySearchResult() {
 		return wrrobj.checkElementVisibility(pResultEmpName);
 	}
-	public void clickEdit(){
-		pEdit.click();
-		wrrobj.scrollToElement(pEditLastName);
-		//wrrobj.waitForElement(pEditLastName);
-		}
-	public void EditLastNameclear(){
+      //Edit Emp
+	public void clickEdit() {
+		pEditt.click();
+		//wrrobj.scrollToElement(pEditLastName);
+	   // wrrobj.waitForElement(pEditLastName);
+	}
+	public boolean checkElementVisibileByEdit() {
+		return wrrobj.checkElementVisibility(pEmployeeList);
+	}
+	public void EditLastNameclear() {
 		pEditLastName.clear();
 	}
-	public void EditLastName(){	
+
+	public void EditLastName() {
 		pEditLastName.sendKeys("umar");
-		}
-	public void clickEditSave(){
+	}
+
+	public void clickEditSave() {
 		pEditSave.click();
 	}
-	public void clickEmployeeList(){
-		pEmployeeList.click();
-		wrrobj.waitForElement(pAdd);	
+	public boolean checkElementVisibileByEditLastName() {
+		return wrrobj.checkElementVisibility(pEditLastName);
 	}
-	
+	public void clickEmployeeList() {
+		pEmployeeList.click();
+		wrrobj.waitForElement(pAdd);
+	}
+
 	public String getLastName() {
 		String pText = pEditText.getText();
 		return pText;
 	}
-
-	public void clickdelete(){
+       //delete emp
+	public void clickdelete() {
 		pdelete.click();
-		//wrrobj.waitForAlert();
-		}
+		// wrrobj.waitForAlert();
+	}
+	public boolean checkElementVisibileByDelete() {
+		return wrrobj.checkElementVisibility(pdelete);
+	}
+
 	public void deleteAlertok() {
 		pAlertDelete.click();
-		//wrrobj.alertAccept();
+		// wrrobj.alertAccept();
 	}
+
 	public boolean checkElementVisibileAdd() {
 		return wrrobj.checkElementVisibility(pAdd);
 	}
-	
-	//Logout
-		public void Logout() {
-			pLogout.click();
-		    String pLanguageList="//*[@class='oxd-dropdown-menu']//following-sibling::li//a";
-			List<WebElement> plangList=wrrobj.returnListOfElementsFromDropDown(pLanguageList);
-			wrrobj.selectFromElementListValue("Logout",plangList);
-		}
-		public boolean checkElementVisibileByLogin() {
-			return wrrobj.checkElementVisibility(pLogin);
-		}
+
+	// Logout
+	public void Logout() {
+		pLogout.click();
+		String pLanguageList = "//*[@class='oxd-dropdown-menu']//following-sibling::li//a";
+		List<WebElement> plangList = wrrobj.returnListOfElementsFromDropDown(pLanguageList);
+		wrrobj.selectFromElementListValue("Logout", plangList);
+	}
+
+	public boolean checkElementVisibileByLogin() {
+		return wrrobj.checkElementVisibility(pLogin);
+	}
 }

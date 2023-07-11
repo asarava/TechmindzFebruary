@@ -1,126 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T17:25:18 IST" name="Suite" finished-at="2023-07-10T17:26:48 IST" duration-ms="90276">
+  <suite started-at="2023-07-11T17:12:39 IST" name="Suite" finished-at="2023-07-11T17:14:11 IST" duration-ms="91539">
     <groups>
     </groups>
-    <test started-at="2023-07-10T17:25:18 IST" name="Test" finished-at="2023-07-10T17:26:48 IST" duration-ms="90276">
+    <test started-at="2023-07-11T17:12:39 IST" name="Test" finished-at="2023-07-11T17:14:11 IST" duration-ms="91539">
       <class name="com.testcases.AddScreenshotsToReport">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:18 IST" name="setExtent" finished-at="2023-07-10T17:25:18 IST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:39 IST" name="setExtent" finished-at="2023-07-11T17:12:40 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:18 IST" name="setUp" finished-at="2023-07-10T17:25:28 IST" duration-ms="9797" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:40 IST" name="setUp" finished-at="2023-07-11T17:12:47 IST" duration-ms="7350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyTheTextLogin()[pri:1, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:28 IST" name="VerifyTheTextLogin" finished-at="2023-07-10T17:25:29 IST" duration-ms="847" status="PASS">
+        <test-method signature="VerifyTheTextLogin()[pri:1, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:47 IST" name="VerifyTheTextLogin" finished-at="2023-07-11T17:12:47 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTheTextLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:29 IST" name="tearDown" finished-at="2023-07-10T17:25:30 IST" duration-ms="767" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:47 IST" name="tearDown" finished-at="2023-07-11T17:12:48 IST" duration-ms="723" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyTheTextLogin status=SUCCESS method=AddScreenshotsToReport.VerifyTheTextLogin()[pri:1, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyTheTextLogin status=SUCCESS method=AddScreenshotsToReport.VerifyTheTextLogin()[pri:1, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="VerifyLogin()[pri:2, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:30 IST" name="VerifyLogin" finished-at="2023-07-10T17:25:32 IST" duration-ms="2228" status="PASS">
+        <test-method signature="VerifyLogin()[pri:2, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:48 IST" name="VerifyLogin" finished-at="2023-07-11T17:12:51 IST" duration-ms="2495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:32 IST" name="tearDown" finished-at="2023-07-10T17:25:33 IST" duration-ms="615" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:51 IST" name="tearDown" finished-at="2023-07-11T17:12:51 IST" duration-ms="616" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=AddScreenshotsToReport.VerifyLogin()[pri:2, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=AddScreenshotsToReport.VerifyLogin()[pri:2, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="AddNewEmp()[pri:3, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:33 IST" name="AddNewEmp" finished-at="2023-07-10T17:25:59 IST" duration-ms="26001" status="PASS">
+        <test-method signature="AddFirstName()[pri:3, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:51 IST" name="AddFirstName" finished-at="2023-07-11T17:12:58 IST" duration-ms="7145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddNewEmp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:59 IST" name="tearDown" finished-at="2023-07-10T17:25:59 IST" duration-ms="309" status="PASS">
+        </test-method> <!-- AddFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:58 IST" name="tearDown" finished-at="2023-07-11T17:12:59 IST" duration-ms="393" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddNewEmp status=SUCCESS method=AddScreenshotsToReport.AddNewEmp()[pri:3, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=AddFirstName status=SUCCESS method=AddScreenshotsToReport.AddFirstName()[pri:3, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="SearchEmp()[pri:4, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:25:59 IST" name="SearchEmp" finished-at="2023-07-10T17:26:10 IST" duration-ms="11154" status="PASS">
+        <test-method signature="AddMiddleName()[pri:4, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:59 IST" name="AddMiddleName" finished-at="2023-07-11T17:12:59 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchEmp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:10 IST" name="tearDown" finished-at="2023-07-10T17:26:10 IST" duration-ms="284" status="PASS">
+        </test-method> <!-- AddMiddleName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:59 IST" name="tearDown" finished-at="2023-07-11T17:12:59 IST" duration-ms="304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchEmp status=SUCCESS method=AddScreenshotsToReport.SearchEmp()[pri:4, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=AddMiddleName status=SUCCESS method=AddScreenshotsToReport.AddMiddleName()[pri:4, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="EditEmp()[pri:5, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:10 IST" name="EditEmp" finished-at="2023-07-10T17:26:27 IST" duration-ms="16149" status="PASS">
+        <test-method signature="AddLastName()[pri:5, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:12:59 IST" name="AddLastName" finished-at="2023-07-11T17:13:03 IST" duration-ms="4198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditEmp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:27 IST" name="tearDown" finished-at="2023-07-10T17:26:27 IST" duration-ms="308" status="PASS">
+        </test-method> <!-- AddLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:03 IST" name="tearDown" finished-at="2023-07-11T17:13:04 IST" duration-ms="295" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EditEmp status=SUCCESS method=AddScreenshotsToReport.EditEmp()[pri:5, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=AddLastName status=SUCCESS method=AddScreenshotsToReport.AddLastName()[pri:5, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="deleteEmp()[pri:6, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:27 IST" name="deleteEmp" finished-at="2023-07-10T17:26:41 IST" duration-ms="14075" status="PASS">
+        <test-method signature="SaveTheDetails()[pri:6, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:04 IST" name="SaveTheDetails" finished-at="2023-07-11T17:13:08 IST" duration-ms="4352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveTheDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:08 IST" name="tearDown" finished-at="2023-07-11T17:13:09 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SaveTheDetails status=SUCCESS method=AddScreenshotsToReport.SaveTheDetails()[pri:6, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Clickjob()[pri:7, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:09 IST" name="Clickjob" finished-at="2023-07-11T17:13:10 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickjob -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:10 IST" name="tearDown" finished-at="2023-07-11T17:13:11 IST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Clickjob status=SUCCESS method=AddScreenshotsToReport.Clickjob()[pri:7, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Selectjob()[pri:8, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:11 IST" name="Selectjob" finished-at="2023-07-11T17:13:19 IST" duration-ms="8260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectjob -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:19 IST" name="tearDown" finished-at="2023-07-11T17:13:19 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Selectjob status=SUCCESS method=AddScreenshotsToReport.Selectjob()[pri:8, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SearchwithEmpName()[pri:9, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:19 IST" name="SearchwithEmpName" finished-at="2023-07-11T17:13:26 IST" duration-ms="6782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchwithEmpName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:26 IST" name="tearDown" finished-at="2023-07-11T17:13:26 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchwithEmpName status=SUCCESS method=AddScreenshotsToReport.SearchwithEmpName()[pri:9, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSearch()[pri:10, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:26 IST" name="clickSearch" finished-at="2023-07-11T17:13:31 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:31 IST" name="tearDown" finished-at="2023-07-11T17:13:31 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSearch status=SUCCESS method=AddScreenshotsToReport.clickSearch()[pri:10, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clikEdit()[pri:11, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:31 IST" name="clikEdit" finished-at="2023-07-11T17:13:37 IST" duration-ms="6017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clikEdit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:37 IST" name="tearDown" finished-at="2023-07-11T17:13:37 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clikEdit status=SUCCESS method=AddScreenshotsToReport.clikEdit()[pri:11, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="EditLastName()[pri:12, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:37 IST" name="EditLastName" finished-at="2023-07-11T17:13:42 IST" duration-ms="4191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:42 IST" name="tearDown" finished-at="2023-07-11T17:13:42 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditLastName status=SUCCESS method=AddScreenshotsToReport.EditLastName()[pri:12, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SaveEditLastName()[pri:13, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:42 IST" name="SaveEditLastName" finished-at="2023-07-11T17:13:48 IST" duration-ms="6534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveEditLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:48 IST" name="tearDown" finished-at="2023-07-11T17:13:49 IST" duration-ms="301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SaveEditLastName status=SUCCESS method=AddScreenshotsToReport.SaveEditLastName()[pri:13, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickdelete()[pri:14, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:49 IST" name="clickdelete" finished-at="2023-07-11T17:13:58 IST" duration-ms="8972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdelete -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:58 IST" name="tearDown" finished-at="2023-07-11T17:13:58 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickdelete status=SUCCESS method=AddScreenshotsToReport.clickdelete()[pri:14, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="deleteEmp()[pri:15, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:13:58 IST" name="deleteEmp" finished-at="2023-07-11T17:14:03 IST" duration-ms="5160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:41 IST" name="tearDown" finished-at="2023-07-10T17:26:41 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:14:03 IST" name="tearDown" finished-at="2023-07-11T17:14:03 IST" duration-ms="289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deleteEmp status=SUCCESS method=AddScreenshotsToReport.deleteEmp()[pri:6, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=deleteEmp status=SUCCESS method=AddScreenshotsToReport.deleteEmp()[pri:15, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="LogOut()[pri:7, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:41 IST" name="LogOut" finished-at="2023-07-10T17:26:47 IST" duration-ms="5406" status="PASS">
+        <test-method signature="LogOut()[pri:16, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:14:03 IST" name="LogOut" finished-at="2023-07-11T17:14:09 IST" duration-ms="5525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:47 IST" name="tearDown" finished-at="2023-07-10T17:26:47 IST" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:14:09 IST" name="tearDown" finished-at="2023-07-11T17:14:09 IST" duration-ms="264" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LogOut status=SUCCESS method=AddScreenshotsToReport.LogOut()[pri:7, instance:com.testcases.AddScreenshotsToReport@71ba6d4e] output={null}]]]>
+                <![CDATA[[TestResult name=LogOut status=SUCCESS method=AddScreenshotsToReport.LogOut()[pri:16, instance:com.testcases.AddScreenshotsToReport@750e2b97] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testcases.AddScreenshotsToReport@71ba6d4e]" started-at="2023-07-10T17:26:47 IST" name="endReport" finished-at="2023-07-10T17:26:48 IST" duration-ms="1361" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testcases.AddScreenshotsToReport@750e2b97]" started-at="2023-07-11T17:14:09 IST" name="endReport" finished-at="2023-07-11T17:14:11 IST" duration-ms="1435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

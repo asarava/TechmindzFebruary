@@ -58,21 +58,50 @@ public class AddScreenshotsToReport extends TestBase {
 		boolean pFlag = homePage.checkElementVisibileByDashBoard();
 		Assert.assertEquals(pFlag, true);
 	}
-
-	
 	@Test(priority = 3)
-	public void AddNewEmp() throws InterruptedException {
-		extentTest = extent.startTest("AddNewEmp");
+	public void AddFirstName() throws InterruptedException {
+		extentTest = extent.startTest("AddFirstName");
 		homePage.clickPIM();
 		Thread.sleep(4000);
 		homePage.clickAdd();
 		homePage.FirstName();
+		boolean pFlag = homePage.checkElementVisibileByFirstname();
+		Assert.assertEquals(pFlag, true);
+	}
+
+	@Test(priority = 4)
+	public void AddMiddleName() throws InterruptedException {
+		extentTest = extent.startTest("AddMiddleName");
 		homePage.MiddleName();
+		boolean pFlag = homePage.checkElementVisibileByMiddlename();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 5)
+	public void AddLastName() throws InterruptedException {
+		extentTest = extent.startTest("AddLastName");
 		homePage.LastName();
 		Thread.sleep(4000);
+		boolean pFlag = homePage.checkElementVisibileByLastname();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 6)
+	public void SaveTheDetails() throws InterruptedException {
+		extentTest = extent.startTest("SaveTheDetails");
 		homePage.clickSave();
 		Thread.sleep(4000);
+		boolean pFlag = homePage.checkElementVisibileBySaveDetails();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 7)
+	public void Clickjob() throws InterruptedException {
+		extentTest = extent.startTest("Clickjob");
 		homePage.clickJob();
+		boolean pFlag = homePage.checkElementVisibileByJob();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 8)
+	public void Selectjob() throws InterruptedException {
+		extentTest = extent.startTest("Selectjob");
 		homePage.selectJob();
 		Thread.sleep(4000);
 		homePage.clickSave();
@@ -81,49 +110,72 @@ public class AddScreenshotsToReport extends TestBase {
 		Assert.assertEquals(pFlag, true);
 	}
 
-	@Test(priority = 4)
-	public void SearchEmp() throws InterruptedException {
-		extentTest = extent.startTest("SearchEmp");
-		homePage.clickPIM();
+	@Test(priority = 9)
+	public void SearchwithEmpName() throws InterruptedException {
+		extentTest = extent.startTest("SearchwithEmpName");
+		homePage.clickPIM(); 
 		homePage.SearchWithEmpName();
 		Thread.sleep(4000);
+		boolean pFlag = homePage.checkElementVisibileBySearchEmp();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 10)
+	public void clickSearch() throws InterruptedException {
+		extentTest = extent.startTest("clickSearch");
 		homePage.clickSearch();
 		Thread.sleep(4000);
 		boolean pFlag = homePage.checkElementVisibileBySearchResult();
 		Assert.assertEquals(pFlag, true);
 	}
 
-	@Test(priority = 5)
-	public void EditEmp() throws InterruptedException {
-		extentTest = extent.startTest("EditEmp");
+	@Test(priority = 11)
+	public void clikEdit() throws InterruptedException {
+		extentTest = extent.startTest("clikEdit");
 		homePage.clickEdit();
-		// homePage.EditLastNameclear();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
+		boolean pFlag = homePage.checkElementVisibileByEdit();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 12)
+	public void EditLastName() throws InterruptedException {
+		extentTest = extent.startTest("EditLastName");
 		homePage.EditLastName();
 		Thread.sleep(4000);
+		boolean pFlag = homePage.checkElementVisibileByEditLastName();
+		Assert.assertEquals(pFlag, true);
+	}
+
+	@Test(priority = 13)
+	public void SaveEditLastName() throws InterruptedException {
+		extentTest = extent.startTest("SaveEditLastName");
 		homePage.clickEditSave();
 		Thread.sleep(4000);
 		homePage.clickEmployeeList();
 		String pText = homePage.getLastName();
 		Assert.assertEquals(pText, "Kumar");
-
 	}
 
-	@Test(priority = 6)
-	public void deleteEmp() throws InterruptedException {
-		extentTest = extent.startTest("deleteEmp");
+	@Test(priority = 14)
+	public void clickdelete() throws InterruptedException {
+		extentTest = extent.startTest("clickdelete");
 		homePage.SearchWithEmpName();
 		Thread.sleep(4000);
 		homePage.clickSearch();
 		homePage.clickdelete();
 		Thread.sleep(4000);
+		boolean pFlag = homePage.checkElementVisibileByDelete();
+		Assert.assertEquals(pFlag, true);
+	}
+	@Test(priority = 15)
+	public void deleteEmp() throws InterruptedException {
+		extentTest = extent.startTest("deleteEmp");
 		homePage.deleteAlertok();
 		Thread.sleep(5000);
 		boolean pFlag = homePage.checkElementVisibileAdd();
 		Assert.assertEquals(pFlag, true);
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 16)
 	public void LogOut() throws InterruptedException {
 		extentTest = extent.startTest("LogOut");
 		homePage.Logout();
@@ -132,6 +184,8 @@ public class AddScreenshotsToReport extends TestBase {
 		Assert.assertEquals(pFlag, true);
 	}
 
+	
+	
 	
 	
 	
